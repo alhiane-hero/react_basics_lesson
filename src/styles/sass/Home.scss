@@ -1,0 +1,19 @@
+.Home {
+    padding: $padding;
+    background-color: $mainColor;
+    text-align: center;
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: $whiteColor;
+        margin-bottom: 15px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 1.7;
+        color: $whiteColor;
+    }
+}

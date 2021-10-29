@@ -1,0 +1,22 @@
+.NotFound {
+    padding: $padding;
+    background-color: $mainColor;
+    text-align: center;
+    h1 {
+        font: {
+            size: 100px;
+            weight: 900;
+        }
+        color: $whiteColor;
+        letter-spacing: 1px;
+        line-height: 1;
+    }
+    p {
+        font: {
+            size: 32px;
+            weight: 600;
+        }
+        color: $whiteColor;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 $padding;
+    background-color: #e02401;
+    .brand {
+        font-size: 24px;
+        font-weight: 600;
+        a {
+            color: $whiteColor;
+        }
+    }
+    nav {
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                &:not(:last-of-type) {
+                    margin-right: $padding;
+                }
+                a {
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    color: $whiteColor;
+                    @include GenerateTransition(color);
+                    &.selected,
+                    &:hover {
+                        color: #e5dcc3;
+                    }
+                }
+            }
+        }
+    }
+}
+.hero {
+    position: relative;
+    height: calc(100vh - (194px + 72px));
+    img {
+        max-width: 100%;
+        height: 100%;
+    }
+}
